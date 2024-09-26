@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(100% - 72px, 1440px);
+    margin-inline: auto;
+}
+
+.wrap {
+    border: 3px solid #000;
+    padding: 1rem;
+    width: 100%;
+    background: #2c97b6;
+    margin-bottom: 2rem;
+}
+
+.wrap--float:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.wrap__item {
+    height: 13rem;
+    border: 1px solid #000;
+    width: 288px;
+    background: #ee9206;
+    margin: 1rem;
+}
+
+.wrap__item--support {
+    width: 50%;
+}
+.wrap__item--fit {
+    width: fit-content;
+}
+
+.wrap__item--clear {
+    background: none;
+    border: none;
+}
+
+.wrap__item--small{
+    height: 6rem;
+    /*margin: 1rem;*/
+}
+
+.float--left {
+    float: left;
+}
+
+.float--right {
+    float: right;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex--between {
+    justify-content: space-between;
+}
+
+.flex--center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex--end {
+    justify-content: flex-end;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+.flex--wrap {
+    flex-wrap: wrap;
+}
+
+.flex--wrap {
+    flex-wrap: wrap;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear--left {
+    clear: left;
+}
+
+.clear--right {
+    clear: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 800px;
+}
+
+
+
